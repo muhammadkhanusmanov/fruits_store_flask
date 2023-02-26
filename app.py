@@ -53,7 +53,7 @@ def all_grocery_by_type(type):
             <title>Products</title>
         </head>
         <body>
-            <h2 style="color: red;"{type} type product was not found in our product database😥</h2>
+            <h2 style="color: red;">{type} type product was not found in our product database😥</h2>
         </body>
         </html>
         """
@@ -92,7 +92,7 @@ def all_grocery_by_name(name):
             <title>Products</title>
         </head>
         <body>
-            <h2 style="color: red;"<b>{name.title()}</b> name product was not found in our product database😥</h2>
+            <h2 style="color: red;"><b>{name.title()}</b> name product was not found in our product database😥</h2>
         </body>
         </html>
         """
@@ -136,7 +136,7 @@ def all_grocery_by_price(price):
             <title>Products</title>
         </head>
         <body>
-            <h2 style="color: red;"No product found with a price of <b>${price}</b></h2>
+            <h2 style="color: red;">No product found with a price of <b>${price}</b></h2>
         </body>
         </html>
         """
